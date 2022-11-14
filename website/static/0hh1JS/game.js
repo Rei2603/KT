@@ -231,7 +231,7 @@ var Game = new (function() {
     grid.load(puzzle.empty, puzzle.full);
     // set system tiles manually
     grid.each(function(){
-      //this.value = this.value; // yes, do so
+    //this.value = this.value;  yes, do so
       this.value = value;
       if (this.value > 0)
         this.system = true;
