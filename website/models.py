@@ -55,3 +55,6 @@ class Game(db.Model):
     gameComment = db.relationship(Comment)
     rankingScore = db.relationship('User', secondary=player)
     videoPath = db.Column(db.String)
+
+
+print('Hello world!')
